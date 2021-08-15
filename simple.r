@@ -8,3 +8,6 @@
 # change the axis text and its angle
 # https://www.tenderisthebyte.com/blog/2019/04/25/rotating-axis-labels-in-r/
 # https://stats.idre.ucla.edu/r/faq/how-can-i-change-the-angle-of-the-value-labels-on-my-axes/
+
+# add large file to github
+# https://git-lfs.github.com/
