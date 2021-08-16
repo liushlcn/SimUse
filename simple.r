@@ -13,3 +13,8 @@
 # https://git-lfs.github.com/
 
 # http://61.54.245.250:8080/#/index
+
+# Fast vectorized merge of list of data.frames by row
+# https://stackoverflow.com/questions/4863341/fast-vectorized-merge-of-list-of-data-frames-by-row?rq=1
+# Create a column based on the name of the element list that contain the data frame in R
+# https://stackoverflow.com/questions/48255351/create-a-column-based-on-the-name-of-the-element-list-that-contain-the-data-fram
