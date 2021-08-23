@@ -1,3 +1,6 @@
 git config branch.master.mergeoptions  "--no-ff" 仅针对当前分支有效
 git config --add merge.ff false 仅针对当前版本库的所有分支有效
 git config --global --add merge.ff false 仅针对所有版本库的所有分支有效
+git branch -D <name> 强行删除一个没有被合并过的分支
+
+
