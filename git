@@ -18,3 +18,19 @@ rebase的目的是使得我们在查看历史提交的变化时更容易，因�
 命令git tag可以查看所有标签
 
 git push origin master --tags
+git push origin <tagname>可以推送一个本地标签
+git push origin --tags可以推送全部未推送过的本地标签
+git tag -d <tagname>可以删除一个本地标签
+git push origin :refs/tags/<tagname>可以删除一个远程标签
+
+查看分支 git branch
+查看远程分支 git branch -r
+查看所有分支 git branch -a
+删除本地分支 git branch -d 分支名  比如 git branch -d dev
+强制删除本地分支 git branch -D 分支名  
+删除远程分支 git push 远程仓库名 :分支名     比如  git push origin :dev
+查看标签 git tag
+创建标签 git tag -a 标签名 -m '描述'
+删除本地标签 git tag -d 标签名
+强制删除本地标签 git tag -D 标签名
+删除远程标签 git push 远程仓库名 :标签名
